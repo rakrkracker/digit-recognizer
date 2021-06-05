@@ -19,11 +19,11 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 ## Libraries used
 * TensorFlow
 * Keras
+* scikit-learn
 * Numpy
 * Pandas
 * matplotlob
 * seaborn
-* sklearn
 
 ## Data
 The original 42000 images were split into training / validation sets with a ratio of 0.8 (33600 training and 8400 validation).
@@ -42,7 +42,6 @@ The model reached an accuracy of about 99.3% (validation) and 99.7% (training), 
 
 ## Evaluation
 The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification (mostly below 1%).
-There worst classification rate by far was for the digit 9, which was identified as 4 0.91% of the times.
 
 ![confusion matrix](https://github.com/rakrkracker/digit-recognizer/blob/master/images/conf_matrix.png)
 
@@ -57,3 +56,5 @@ By digit:
 7. True: 853, False: 5. False classification: 0.58%
 8. True: 798, False: 4. False classification: 0.49%
 9. True: 857, False: 13. False classification: 1.49%
+
+There worst classification rate by far was for the digit 9, which was identified as 4 0.91% of the times.

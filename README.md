@@ -44,5 +44,15 @@ The model reached an accuracy of about 99.3% (validation) and 99.7% (training), 
 
 The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification.
 By digit:
-0:
-1:
+digit 0. 1-766 -> 0.013%
+digit 1. 7-948 -> 0.73%
+2. 8-831 -> 0.95%
+3. 5-903 -> 0.55%
+4. 5-810 -> 0.61%
+5. 8-745 -> 1.06%
+6. 4-828 -> 0.48%
+7. 5-853 -> 0.58%
+8. 4-798 -> 0.49%
+9. 13-857 -> 1.49%
+<br/>
+![confusion matrix](https://github.com/rakrkracker/digit-recognizer/blob/master/images/conf_matrix.png)

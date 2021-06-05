@@ -45,7 +45,6 @@ The model reached an accuracy of about 99.3% (validation) and 99.7% (training), 
 The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification (mostly below 1%).
 There worst classification rate by far was for the digit 9, which was identified as 4 0.91% of the times.
 
-<br/>
 ![confusion matrix](https://github.com/rakrkracker/digit-recognizer/blob/master/images/conf_matrix.png)
 
 By digit:

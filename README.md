@@ -32,7 +32,7 @@ The images were normalized and the training set was augmented with rotations, ax
 ## The model
 The model is a simple deep CNN. It uses 3 convolutional blocks to extract feartures, with added dropouts and batch normalizations for stability,
 and a dense head for classification.<br/>
-![model architecture](https://github.com/rakrkracker/digit-recognizer/blob/master/images/cnn_model.png)
+![model architecture](https://github.com/rakrkracker/digit-recognizer/blob/master/images/cnn_model_simple.png)
 
 ## Training
 The model was trained in batches of size 128 and for a maximum of 100 epochs (a callback was added to stop training if nothing new was learned for multiple epochs).
@@ -47,7 +47,6 @@ There worst classification rate by far was for the digit 9, which was identified
 
 <br/>
 ![confusion matrix](https://github.com/rakrkracker/digit-recognizer/blob/master/images/conf_matrix.png)
-<br/>
 
 By digit:
 0. True: 766, False: 1, False classification: 0.013%

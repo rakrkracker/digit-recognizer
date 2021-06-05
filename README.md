@@ -42,17 +42,21 @@ The training stopped after 25 epochs.
 The model reached an accuracy of about 99.3% (validation) and 99.7% (training), which indicated a good fit, without under- or overfitting.<br/>
 ![learning plots](https://github.com/rakrkracker/digit-recognizer/blob/master/images/training_plots.png)
 
-The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification.
-By digit:
-digit 0. 1-766 -> 0.013%
-digit 1. 7-948 -> 0.73%
-2. 8-831 -> 0.95%
-3. 5-903 -> 0.55%
-4. 5-810 -> 0.61%
-5. 8-745 -> 1.06%
-6. 4-828 -> 0.48%
-7. 5-853 -> 0.58%
-8. 4-798 -> 0.49%
-9. 13-857 -> 1.49%
+The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification (mostly below 1%).
+There worst classification rate by far was for the digit 9, which was identified as 4 0.91% of the times.
+
 <br/>
 ![confusion matrix](https://github.com/rakrkracker/digit-recognizer/blob/master/images/conf_matrix.png)
+<br/>
+
+By digit:
+0. True: 766, False: 1, False classification: 0.013%
+1. True: 948, False: 7, False classification: 0.73%
+2. True: 831, False: 8. False classification: 0.95%
+3. True: 903, False: 5. False classification: 0.0.55%
+4. True: 810, False: 5. False classification: 0.61%
+5. True: 745, False: 8. False classification: 1.06%
+6. True: 828, False: 4. False classification: 0.48%
+7. True: 853, False: 5. False classification: 0.58%
+8. True: 798, False: 4. False classification: 0.49%
+9. True: 857, False: 13. False classification: 1.49%

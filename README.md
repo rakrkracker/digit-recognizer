@@ -3,7 +3,7 @@ A simple deep CNN that classifies hand written digits from the mnist dataset
 
 ## Overview
 An implementation of a deep CNN to reconize hand written digits from the mnist dataset to their appropriate value
-for the kaggle challenge.
+for a kaggle challenge.
 The model was built using the tensorflow/keras libraries.
 It achieved an accuracy of above 99%.
 

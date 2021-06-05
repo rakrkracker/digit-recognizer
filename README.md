@@ -37,11 +37,10 @@ and a dense head for classification.<br/>
 ## Training
 The model was trained in batches of size 128 and for a maximum of 100 epochs (a callback was added to stop training if nothing new was learned for multiple epochs).
 The training stopped after 25 epochs.
-
-## Evaluation
 The model reached an accuracy of about 99.3% (validation) and 99.7% (training), which indicated a good fit, without under- or overfitting.<br/>
 ![learning plots](https://github.com/rakrkracker/digit-recognizer/blob/master/images/training_plots.png)
 
+## Evaluation
 The classification confusion matrix shows that most of the digits were handeled correctly, with low false classification (mostly below 1%).
 There worst classification rate by far was for the digit 9, which was identified as 4 0.91% of the times.
 

@@ -7,15 +7,6 @@ for a kaggle challenge.
 The model was built using the TensorFlow/Keras libraries.
 It achieved an accuracy of above 99%.
 
-## Kaggle competition
-This project is in response to the kaggle Digit Recocnizer competition https://www.kaggle.com/c/digit-recognizer.
-The goal is to correctly identify digits from a dataset of tens of thousands of handwritten images.
-
-## mnist dataset
-The data is taken from the mnist (Modified National Institute of Standards and Technology) dataset.
-Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255, inclusive. There are 42,000 labeled examples to work with.<br/>
-![mnist dataset](https://github.com/rakrkracker/digit-recognizer/blob/master/images/mnist_ex.png)
-
 ## Libraries used
 * TensorFlow
 * Keras
@@ -24,6 +15,15 @@ Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pix
 * Pandas
 * matplotlob
 * seaborn
+
+## Kaggle competition
+This project is in response to the kaggle Digit Recocnizer competition https://www.kaggle.com/c/digit-recognizer.
+The goal is to correctly identify digits from a dataset of tens of thousands of handwritten images.
+
+## mnist dataset
+The data is taken from the mnist (Modified National Institute of Standards and Technology) dataset.
+Each image is 28 pixels in height and 28 pixels in width, for a total of 784 pixels in total. Each pixel has a single pixel-value associated with it, indicating the lightness or darkness of that pixel, with higher numbers meaning darker. This pixel-value is an integer between 0 and 255, inclusive. There are 42,000 labeled examples to work with.<br/>
+![mnist dataset](https://github.com/rakrkracker/digit-recognizer/blob/master/images/mnist_ex.png)
 
 ## Data
 The original 42,000 images were split into training / validation sets with a ratio of 0.8 (33,600 training and 8,400 validation).

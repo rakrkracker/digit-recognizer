@@ -49,7 +49,7 @@ By digit:
 0. True: 766, False: 1, False classification: 0.013%
 1. True: 948, False: 7, False classification: 0.73%
 2. True: 831, False: 8. False classification: 0.95%
-3. True: 903, False: 5. False classification: 0.0.55%
+3. True: 903, False: 5. False classification: 0.55%
 4. True: 810, False: 5. False classification: 0.61%
 5. True: 745, False: 8. False classification: 1.06%
 6. True: 828, False: 4. False classification: 0.48%
